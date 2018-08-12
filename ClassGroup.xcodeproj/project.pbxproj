@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CB2C6549211FFC4000BABD68 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB78A8EC211EB75000DEA084 /* SnapKit.framework */; };
+		CB2C654C212037AC00BABD68 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C654A212037AC00BABD68 /* MineViewController.swift */; };
+		CB2C654D212037AC00BABD68 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C654B212037AC00BABD68 /* MineViewController.xib */; };
+		CB2C6550212037F200BABD68 /* ClassMateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C654E212037F200BABD68 /* ClassMateViewController.swift */; };
+		CB2C6551212037F200BABD68 /* ClassMateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C654F212037F200BABD68 /* ClassMateViewController.xib */; };
+		CB2C65542120385200BABD68 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C65522120385200BABD68 /* CourseViewController.swift */; };
+		CB2C65552120385200BABD68 /* CourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C65532120385200BABD68 /* CourseViewController.xib */; };
 		CB78A8B1211E9A2E00DEA084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78A8B0211E9A2E00DEA084 /* AppDelegate.swift */; };
 		CB78A8B3211E9A2E00DEA084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78A8B2211E9A2E00DEA084 /* ViewController.swift */; };
 		CB78A8B6211E9A2E00DEA084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB78A8B4211E9A2E00DEA084 /* Main.storyboard */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB2C654A212037AC00BABD68 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CB2C654B212037AC00BABD68 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		CB2C654E212037F200BABD68 /* ClassMateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMateViewController.swift; sourceTree = "<group>"; };
+		CB2C654F212037F200BABD68 /* ClassMateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassMateViewController.xib; sourceTree = "<group>"; };
+		CB2C65522120385200BABD68 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		CB2C65532120385200BABD68 /* CourseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseViewController.xib; sourceTree = "<group>"; };
 		CB78A8AD211E9A2E00DEA084 /* ClassGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB78A8B0211E9A2E00DEA084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB78A8B2211E9A2E00DEA084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +157,12 @@
 				CB78A8E4211EA0B400DEA084 /* MainTabbarVC.xib */,
 				CB78A8E7211EA8AF00DEA084 /* MainViewController.swift */,
 				CB78A8E8211EA8AF00DEA084 /* MainViewController.xib */,
+				CB2C654A212037AC00BABD68 /* MineViewController.swift */,
+				CB2C654B212037AC00BABD68 /* MineViewController.xib */,
+				CB2C654E212037F200BABD68 /* ClassMateViewController.swift */,
+				CB2C654F212037F200BABD68 /* ClassMateViewController.xib */,
+				CB2C65522120385200BABD68 /* CourseViewController.swift */,
+				CB2C65532120385200BABD68 /* CourseViewController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -263,10 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB78A8BB211E9A3400DEA084 /* LaunchScreen.storyboard in Resources */,
+				CB2C65552120385200BABD68 /* CourseViewController.xib in Resources */,
 				CB78A8B8211E9A3400DEA084 /* Assets.xcassets in Resources */,
 				CB78A8EA211EA8AF00DEA084 /* MainViewController.xib in Resources */,
 				CB78A8B6211E9A2E00DEA084 /* Main.storyboard in Resources */,
 				CB78A8E6211EA0B400DEA084 /* MainTabbarVC.xib in Resources */,
+				CB2C654D212037AC00BABD68 /* MineViewController.xib in Resources */,
+				CB2C6551212037F200BABD68 /* ClassMateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +331,11 @@
 			files = (
 				CB78A8E5211EA0B400DEA084 /* MainTabbarVC.swift in Sources */,
 				CB78A8B3211E9A2E00DEA084 /* ViewController.swift in Sources */,
+				CB2C6550212037F200BABD68 /* ClassMateViewController.swift in Sources */,
 				CB78A8B1211E9A2E00DEA084 /* AppDelegate.swift in Sources */,
 				CB78A8E9211EA8AF00DEA084 /* MainViewController.swift in Sources */,
+				CB2C654C212037AC00BABD68 /* MineViewController.swift in Sources */,
+				CB2C65542120385200BABD68 /* CourseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
