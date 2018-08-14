@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401B17672122CA6E00FBE1BB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401B17662122CA6E00FBE1BB /* Alamofire.framework */; };
 		CB2C6549211FFC4000BABD68 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB78A8EC211EB75000DEA084 /* SnapKit.framework */; };
 		CB2C654C212037AC00BABD68 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C654A212037AC00BABD68 /* MineViewController.swift */; };
 		CB2C654D212037AC00BABD68 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C654B212037AC00BABD68 /* MineViewController.xib */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401B17662122CA6E00FBE1BB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CB2C654A212037AC00BABD68 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		CB2C654B212037AC00BABD68 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
 		CB2C654E212037F200BABD68 /* ClassMateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMateViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401B17672122CA6E00FBE1BB /* Alamofire.framework in Frameworks */,
 				CB2C6549211FFC4000BABD68 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +173,7 @@
 		CB78A8EB211EB75000DEA084 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				401B17662122CA6E00FBE1BB /* Alamofire.framework */,
 				CB78A8EC211EB75000DEA084 /* SnapKit.framework */,
 			);
 			name = Frameworks;
@@ -315,6 +319,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			outputPaths = (
 			);
@@ -516,6 +521,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClassGroup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,6 +546,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClassGroup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,12 +8,14 @@
 
 import UIKit
 import SnapKit
+import Alamofire
 
 class MainTabbarVC: UIViewController {
     
     var arrayVC: [UIViewController] = [] {
         didSet{
 //            setVCs()
+
         }
     }
 
@@ -33,7 +35,18 @@ class MainTabbarVC: UIViewController {
         
         
         setVCs()
+
         
+        Alamofire.request("http://10.18.15.133:8060/uk-travel/v1/footprints/", method: HTTPMethod.get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON {[weak self] (response) in
+           print(response.result)
+            print(response.result.value)
+
+            if let dic = response.result.value as? [String: Any] {
+                if let str = dic["msg"] as? String {
+                    print(str.utf8)
+                }
+            }
+        }
     }
     
     ///配置VC
@@ -101,6 +114,13 @@ class MainTabbarVC: UIViewController {
     lazy var tabbarVC: UITabBarController = {
        var tabbar = UITabBarController()
         return tabbar
+    }()
+
+
+    lazy var scrollView: UIScrollView = {
+
+        var view = UIScrollView()
+        return view
     }()
     
 
