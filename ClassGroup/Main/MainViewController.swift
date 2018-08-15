@@ -44,7 +44,7 @@ class MainViewController: UIViewController {
     
     lazy var mPageControl: UIPageControl = {
         
-    }
+    }()
     
 
     /*
