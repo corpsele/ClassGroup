@@ -42,6 +42,10 @@ class MainViewController: UIViewController {
         return view
     }()
     
+    lazy var mPageControl: UIPageControl = {
+        
+    }
+    
 
     /*
     // MARK: - Navigation
